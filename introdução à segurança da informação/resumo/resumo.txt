@@ -1,0 +1,82 @@
+PRINCIPIOS DA SEGURANÇA E O CICLO DE VIDA DA INFORMAÇÃO 
+
+EXEMPLOS DE GOLPE:
+-boleto falso 
+-via sms 
+-pefil falso
+-investimento
+-marketing multivel 
+-golpe do emprego 
+-golpe do suporte tecnico 
+-folgo do zap 
+-golpe via páginas falsas 
+
+ITENS IMPORTANTES:
+-definição de dado e informação: dado = valor primitivo / informação = dado processado e contextualizado, gera conhecimento
+-ciclo de vida da informação: manuseio, armazenamento, transporte e descarte (MATD)
+-aspectos de segurança da informação: CID / confidencialidade, integridade, disponibilidade + autenticidade e legalidade 
+-segurança física, lógica e controle de acesso: quem pode acessar o local onde está o servidor, ou acessar o servidor via software, por exemplo 
+
+CONTROLE DE ACESSO EFICIENTE 
+-acesso apenas por pessoas autorizadas 
+-não fornecer dicas, validar a entrada como um tudo 
+-limitar tentativas de logon 
+-guardar no banco as tentativas de acesso inválidas 
+-forçar um tempo de espera 
+
+TIPOS DE CONTROLE DE ACESSO 
+-DAC = mais flexível, menos seguro, uma pessoa tem controle total sobre o sistema, e ela concede ou não, o nível de acesso para quem quiser
+
+-RBAC = é baseado em função (literalmente) do indivíduo dentro da empresa, ou seja, o nivel é concedido a funçã oque desempenha, e não diretamente a pessoa. ex: nivel acesso vendedor, o mesmo nivel pode ser reaproveitado por todos os vendedores 
+
+-MAC =  mais inflexível, mais seguro, as configurações de acesso são feitas individualmente por usuário 
+
+
+TIPO DE CRIPTOGRAFIA 
+-chave simétrica = usa um única chave privada para criptografar e descriptografar (AES, DES, RC2 e IDEA)
+-chave assimétrica = usa duas chaves, privada para criptografar, e quem recebe, usa uma chave pública para descriptografar (ESA, DAS e PKC)
+-função HASH = utliza funções matemáticas para transformar o dado (MD5 e SHA)
+
+AMEAÇAS E VULNERABILIDADES À SEGURANÇA DA INFORMAÇÃO 
+OBJETIVO DE UM ATAQUE: 
+-roubar dados
+-roubar recurso financeiros 
+-destruir reputação 
+-causar danos materiais
+-vandalismo 
+-terrorismo 
+-criar caos 
+-perseguição e coação
+
+ITENS IMPORTANTES 
+-ameaças e vulnerabilidades:definições e tipos = tudo que pode causar algum tipo de dano. 
+	ameaças = algo que pode acontecer, se acontecer pode causar danos 
+	vulnerabilidades = fraquezas de um sistema, ponto fraco 
+-ataques cibernéticos = ataques que ocorrem na web de modo geral 
+-ataque de negação de serviço = impede o acesso de quem tem direito de acessar um sistema, torna o sistema indisponível, derruba o sistema 
+-engenharia social = conhecimento do usuário 
+
+FATORES QUE AFETAM A SEGURANÇA DA INFORMAÇÃO 
+-falhas na segurança física e lógica
+-vulnerabilidade dos programas 
+-infraestrutura mal-configurada 
+-falta de conscientização e capacitação dos indivíduos 
+-ausência de controle de acesso 
+-inexistência de planos de gerenciamento de segurança 
+-falta de planos de continuidade e conformidade
+
+BOAS PRÁTICAS EM SEGURANÇA DA INFORMAÇÃO 
+-boas práticas em segurança da informação (treinamento e conscientização)
+-controle de acesso, antivírus e backup 
+-introdução à criptografia e certificado digital
+
+GESTÃO DE CONTINUIDADE DE NEGÓCIO 
+ITENS IMPORTANTES 
+-plano de continuidade de negócio (PCN)
+-desenvolvendo o PCN 
+-PDCA 
+-plano de recuperação de desastres 
+-política de gestão de continuidade de negócio 
+-ITIL no contexto de gerenciamento de continuidade 
+
+
